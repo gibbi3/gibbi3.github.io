@@ -191,6 +191,10 @@ footer ul {
   .col-4 img {
     width: 75%;
   }
+  .col-3 {
+    order: -1;
+    padding-bottom: 20px;
+  }
   .col-9 {
     width: 100%;
   }
@@ -202,7 +206,8 @@ footer ul {
   }
   .row {
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .row img {
     width: 50%;
