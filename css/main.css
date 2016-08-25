@@ -188,6 +188,9 @@ footer ul {
   div.col-4 {
     width: 100%;
   }
+  .col-4 img {
+    width: 75%;
+  }
   .col-9 {
     width: 100%;
   }
