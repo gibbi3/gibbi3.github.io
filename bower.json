@@ -1,0 +1,16 @@
+{
+  "name": "workingportfolio",
+  "description": "Portfolio",
+  "main": "index.html",
+  "authors": [
+    "gibbi3"
+  ],
+  "license": "none",
+  "keywords": [
+    "none"
+  ],
+  "homepage": "none",
+  "dependencies": {
+    "paper-elements": "PolymerElements/paper-elements#^1.0.7"
+  }
+}

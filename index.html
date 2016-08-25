@@ -1,1 +1,149 @@
-Hello World
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>GilBirdsongIII</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700'
+      rel='stylesheet' type='text/css'>
+    <link rel="import" href="bower_components/paper-button/paper-button.html">
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device width, initial-width=1.0">
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js">
+    </script>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="row-top">
+        <div class="col-1">
+          <img src="img/albatross-red.svg" alt="A red albatross">
+        </div>
+        <div class=col-11>
+          <h1>Gil Birdsong</h1>
+          <h4>Web Development Student</h4>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-9">
+          <p>
+          There is no fault in filler paragraphs<br>
+          If they transmit some slight sense of purpose<br>
+          Like bowties around the necks of giraffes<br>
+          Holding to the milieu of the circus<br>
+          If we all in fact live on borrowed time<br>
+          As the winter falls on both men and mice<br>
+          It's not so far-fetched nor the least sublime<br>
+          That time with another is borrowed twice<br>
+          To be clear I wrote this little sonnet<br>
+          So that this page would have some words on it<br>
+          </p>
+        </div>
+        <div class="col-3">
+          <img src="img/profile.jpeg" alt="Profile picture">
+        </div>
+      </div>
+      <h3>Projects</h3>
+      <div class="row-low">
+        <div class="col-4">
+          <img src="img/turtle.jpg" alt="Turtle God!">
+          <paper-button raised data-toggle="modal"
+          data-target="#TurtleGod">Turtle-God</paper-button>
+        </div>
+        <div class="col-4">
+          <img src="img/crown.jpg" alt="A simple, black crown">
+          <paper-button raised data-toggle="modal"
+          data-target="#Regalizer">Regalizer</paper-button>
+        </div>
+        <div class="col-4">
+          <img src="img/lottery.jpg" alt="Lottery balls">
+          <paper-button raised data-toggle="modal"
+          data-target="#Lottery">PowerBall-Checker</paper-button>
+        </div>
+      </div>
+      <hr>
+      <footer>
+        <ul>
+          <li class="brandico-facebook"></li>
+          <li class="brandico-linkedin"></li>
+          <li class="brandico-github"></li>
+        </ul>
+      </footer>
+    </div>
+    <div class="modal fade" id="TurtleGod" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"
+              aria-label="Close"><span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="TurtleGodLabel">TurtleGod</h4>
+          </div>
+          <div class="modal-body">
+            <img src="img/turtlegodexample.png"
+              alt="Example of turtle god program">
+            <p>TurtleGod is not just a program. It is a way of life.</br>
+               TurtleGod was Gil's first real program written in Python, and
+               the source of a long running inside joke with his girlfriend.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Praise TurtleGod!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Regalizer" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"
+              aria-label="Close"><span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="RegalizerLabel">Regalizer</h4>
+          </div>
+          <div class="modal-body">
+            <img src="img/regalizerexample.png"
+              alt="Example of the regalizer program">
+            <p>Regalizer is simple and rather useless program written in Java
+               that bestows upon its users a regal, pompous-sounding name at
+               random.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default"
+              data-dismiss="modal">Neat!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="Lottery" tabindex="-1" role="dialog"
+      aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"
+              aria-label="Close"><span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">PowerBall Checker</h4>
+          </div>
+          <div class="modal-body">
+            <img src="img/lotteryexample.png"
+              alt="Example of powerball checker program">
+            <p>Powerball Checker is a rather cumbersome program that allows the
+               user to input their Powerball numbers as arrays, and compare them
+               at drawing time to the numbers that are drawn. It's really more a
+               placehoder here than anything.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Right on!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
