@@ -1,8 +1,3 @@
-@import url(http://weloveiconfonts.com/api/?family=brandico);
-/* brandico */
-[class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif;
-}
 html {
   font-family: 'Quicksand', sans-serif;
 }
@@ -151,11 +146,14 @@ ul li {
   outline: 2px groove black;
   margin: 2%;
 }
-footer ul {
+body footer {
   display: flex;
-  font-size: 16px;
   align-items: center;
   justify-content: center;
+}
+footer img {
+  max-width: 3em;
+  margin: 20px;
 }
 .modal-body img {
   width: 100%;
