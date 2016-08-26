@@ -71,6 +71,10 @@ body {
 body hr {
   border-top: solid 5px #bcbbbb;
 }
+.bottom-line {
+  border-top: solid 5px #bcbbbb;
+  margin-bottom: 0;
+}
 h1 {
   height: 100%;
   color: darkblue;
@@ -186,7 +190,7 @@ footer img {
     width: 100%;
   }
   .col-4 img {
-    width: 75%;
+    width: 50%;
   }
   .col-3 {
     order: -1;
@@ -213,6 +217,7 @@ footer img {
     font-size: 20px;
   }
 }
+
 * {
   /*border: 0.5px solid blue !important;*/
   box-sizing: border-box;
