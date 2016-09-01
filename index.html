@@ -9,27 +9,23 @@
     <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700'
       rel='stylesheet'>
     <link rel="import" href="bower_components/paper-button/paper-button.html">
-    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js">
-    </script>
   </head>
   <body>
     <div class="grid">
       <div class="row-top">
         <div class="col-1">
-          <img src="img/albatross-red.svg" alt="A red albatross">
+          <img class="logo" src="img/albatross-red.svg" alt="A red albatross">
         </div>
         <div class=col-11>
           <h1>Gil Birdsong</h1>
           <h4>Web Development Student</h4>
         </div>
       </div>
-      <hr>
+      <hr class="top-line">
       <div class="row">
         <div class="col-9">
           <!--This will be a kind of "bio" section. For now it holds a sonnet-->
-          <p>
+          <p class="bio">
           There is no fault in filler paragraphs<br>
           If they transmit some slight sense of purpose<br>
           Like bowties around the necks of giraffes<br>
@@ -43,7 +39,7 @@
           </p>
         </div>
         <div class="col-3">
-          <img src="img/profile.jpeg" alt="Profile picture">
+          <img class="profile" src="img/profile.jpeg" alt="Profile picture">
         </div>
       </div>
       <h3>Projects</h3>
@@ -51,18 +47,18 @@
           Validator does not like paper-buttons.-->
       <div class="row-low">
         <div class="col-4">
-          <img src="img/turtle.jpg" alt="Turtle God!">
-          <paper-button raised data-toggle="modal"
+          <img class="project-img" src="img/turtle.jpg" alt="Turtle God!">
+          <paper-button class="button" raised data-toggle="modal"
           data-target="#TurtleGod">Turtle-God</paper-button>
         </div>
         <div class="col-4">
-          <img src="img/crown.jpg" alt="A simple, black crown">
-          <paper-button raised data-toggle="modal"
+          <img class="project-img" src="img/crown.jpg" alt="A simple, black crown">
+          <paper-button class="button" raised data-toggle="modal"
           data-target="#Regalizer">Regalizer</paper-button>
         </div>
         <div class="col-4">
-          <img src="img/lottery.jpg" alt="Lottery balls">
-          <paper-button raised data-toggle="modal"
+          <img class="project-img" src="img/lottery.jpg" alt="Lottery balls">
+          <paper-button class="button" raised data-toggle="modal"
           data-target="#Lottery">PowerBall-Checker</paper-button>
         </div>
       </div>
@@ -90,7 +86,7 @@
             <h4 class="modal-title" id="TurtleGodLabel">TurtleGod</h4>
           </div>
           <div class="modal-body">
-            <img src="img/turtlegodexample.png"
+            <img class="modal-img" src="img/turtlegodexample.png"
               alt="Example of turtle god program">
             <p>TurtleGod was Gil's first real program written in Python (thanks
                to Udacity's Introduction to Programming course) and
@@ -117,7 +113,7 @@
             <h4 class="modal-title" id="RegalizerLabel">Regalizer</h4>
           </div>
           <div class="modal-body">
-            <img src="img/regalizerexample.png"
+            <img class="modal-img" src="img/regalizerexample.png"
               alt="Example of the regalizer program">
             <p>Regalizer is simple and rather useless program written in Java
                that bestows upon its users a regal, pompous-sounding name at
@@ -141,7 +137,7 @@
             <h4 class="modal-title" id="myModalLabel">PowerBall Checker</h4>
           </div>
           <div class="modal-body">
-            <img src="img/lotteryexample.png"
+            <img class="modal-img" src="img/lotteryexample.png"
               alt="Example of powerball checker program">
             <p>Powerball Checker is a rather cumbersome program that allows the
                user to input their Powerball numbers as arrays, and compare them
@@ -158,5 +154,9 @@
         </div>
       </div>
     </div>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js">
+    </script>
   </body>
 </html>
