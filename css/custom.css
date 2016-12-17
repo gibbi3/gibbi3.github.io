@@ -1,0 +1,94 @@
+body {
+  background-image: url("/img/background.jpg");
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+li {
+  font-size: 20px;
+}
+
+.container {
+  text-align: left;
+}
+
+.jumbotron {
+  color: white;
+  background: darkslategray;
+  border-bottom: solid white;
+}
+
+.soc-link {
+  max-width: 50px;
+  padding-bottom: 8px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row-body {
+  display: flex;
+}
+
+.container-body {
+  width: 100%;
+}
+
+.motto {
+  color: silver;
+}
+
+.project {
+  max-width: 300px;
+  margin: auto;
+}
+
+.proj-col {
+  max-width: 100%;
+}
+
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10 {
+  padding-top: 10px;
+  background: beige;
+  border-radius: 25px;
+}
+
+@media only screen and (max-width: 860px) {
+
+  .row-body {
+    display: block;
+  }
+
+  .project {
+    max-width: 400px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .soc-link {
+    width: 30px;
+    padding-bottom: 20px;
+  }
+  .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11 {
+    padding-top: 20px;
+  }
+
+  .row-body {
+    display: flex;
+  }
+
+  .project {
+    max-width: 400px;
+  }
+}
