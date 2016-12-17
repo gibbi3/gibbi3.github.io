@@ -1,9 +1,5 @@
 body {
   background-image: url("/img/background.jpg");
-  font-family: 'Ubuntu', sans-serif;
-}
-
-h1 {
   font-family: 'Poiret One', cursive;
 }
 
@@ -14,6 +10,10 @@ h2 {
 
 li {
   font-size: 20px;
+}
+
+img {
+  border-radius: 25px;
 }
 
 .container {
@@ -57,13 +57,21 @@ li {
   max-width: 100%;
 }
 
+.thumbnail {
+  border-radius: 25px;
+}
+
 .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10 {
   padding-top: 10px;
   background: beige;
   border-radius: 25px;
 }
 
-@media only screen and (max-width: 860px) {
+.btn {
+  width: 100px;
+}
+
+@media only screen and (max-width: 912px) {
 
   .row-body {
     display: block;
@@ -85,7 +93,7 @@ li {
   }
 
   .row-body {
-    display: flex;
+    display: block;
   }
 
   .project {
