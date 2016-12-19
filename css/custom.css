@@ -1,5 +1,9 @@
 body {
   background-image: url("/img/background.jpg");
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
   font-family: 'Poiret One', cursive;
 }
 
@@ -8,12 +12,16 @@ h2 {
   color: white;
 }
 
+h3 {
+  color: white;
+}
+
 li {
   font-size: 20px;
 }
 
-img {
-  border-radius: 25px;
+p {
+  color: white;
 }
 
 .container {
@@ -58,7 +66,12 @@ img {
 }
 
 .thumbnail {
-  border-radius: 25px;
+  background: initial;
+  color: white;
+}
+
+.caption {
+  color: white;
 }
 
 .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10 {
@@ -67,11 +80,7 @@ img {
   border-radius: 25px;
 }
 
-.btn {
-  width: 100px;
-}
-
-@media only screen and (max-width: 912px) {
+@media only screen and (max-width: 860px) {
 
   .row-body {
     display: block;
@@ -84,6 +93,15 @@ img {
 }
 
 @media only screen and (max-width: 500px) {
+
+  body {
+    background-size: cover;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+  }
+
   .soc-link {
     width: 30px;
     padding-bottom: 20px;
@@ -97,6 +115,7 @@ img {
   }
 
   .project {
-    max-width: 400px;
+    width: 75%;
+    margin: auto;
   }
 }
