@@ -82,6 +82,10 @@ p {
 
 @media only screen and (max-width: 860px) {
 
+  body {
+    background-size: cover;
+  }
+
   .row-body {
     display: block;
   }
@@ -94,10 +98,6 @@ p {
 
 @media only screen and (max-width: 500px) {
 
-  body {
-    background-size: cover;
-  }
-  
   h2 {
     margin-bottom: 30px;
   }
